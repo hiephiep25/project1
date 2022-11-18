@@ -1,0 +1,124 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.wrapper{
+    border: 1px solid #000;
+    height: auto;
+    width: 90%;
+    margin:0 auto;
+}
+.header{
+    background-image: url("../images/banner.jpg");
+    background-repeat: repeat-x;
+    background-size: 100% 250px;
+    border: 1px solid #000;
+    height: 250px;
+    width: 100%;
+}
+.menu{
+    border: 1px solid #000;
+    height: 50px;
+    width: 100%;
+    background: #00e6ac;
+}
+ul.list_menu {
+    padding: 0;
+    list-style: none;
+    width: 60%;
+    margin: 0 auto;
+    line-height: 20px;
+}
+ul.list_menu li{
+    float: left;
+    margin: 7px;
+    padding: 5px;
+}
+ul.list_menu li:hover{
+    background: burlywood;
+}
+ul.list_menu li a{
+    text-decoration: none;
+    text-align: center;
+}
+#main{
+    border: 1px solid #000;
+    height: auto;
+    width: 100%;
+}
+.sidebar{
+    border: 1px solid #000;
+    height: 390px;
+    width: 20%;
+    margin-top: 5px;
+    margin-left: 5px;
+    float: left;
+}
+ul.list_sidebar {
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    line-height: 20px;
+}
+ul.list_sidebar li{
+    margin: 7px;
+    padding: 5px;
+}
+ul.list_sidebar li:hover{
+    background: burlywood;
+    color: white;
+}
+ul.list_sidebar li a{
+    text-decoration: none;
+    text-align: left;
+    display: block;
+}
+.main-content{
+    border: 1px solid #000;
+    height: auto;
+    width: 79%;
+    margin-top: 5px;
+    margin-left: 3px;
+    float: right;
+}
+ul.product_list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width:100%;
+}
+ul.product_list li {
+    width: 19%;
+    border: 1px dashed #000;
+    float: left;
+    margin-left: 7px;
+    background: #f2f2f2;
+}
+ul.product_list li img{
+    width: 100%;
+}
+ul.product_list li a{
+    text-decoration: none; 
+}
+p.title_product {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+p.price_product {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+.footer{
+    height: 150px;
+    width: 100%;
+    background:#00cc99;
+}
+p.footer {
+    margin-top: 6px;
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
