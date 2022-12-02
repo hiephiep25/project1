@@ -8,6 +8,29 @@ body{
     width: 90%;
     margin:0 auto;
 }
+.wrapper_chitiet{
+    height: auto;
+    width: 90%;
+    margin:0 auto;
+}
+.hinhanh_sanpham{
+    border: 1px solid #ddd;
+    float:left;
+    width: 30%;
+}
+.chitiet_sanpham{
+    float: left;
+    width: 50%;
+    margin:0 20px;
+}
+input.themgiohang{
+    border: none;
+    background:brown;
+    color: #fff;
+    padding: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
 .header{
     background-image: url("../images/banner.jpg");
     background-repeat: repeat-x;
@@ -89,13 +112,16 @@ ul.product_list{
 }
 ul.product_list li {
     width: 19%;
-    border: 1px dashed #000;
+    border: 1px solid #ddd;
     float: left;
     margin-left: 7px;
     background: #f2f2f2;
+    height: 300px;
 }
 ul.product_list li img{
-    width: 100%;
+    width: 90%;
+    height: 150px;
+    margin-left: 10px;
 }
 ul.product_list li a{
     text-decoration: none; 

@@ -10,6 +10,8 @@
 <body>
     <div class="wrapper">
         <?php
+            session_start();
+            include("admin/config/config.php");
             include("pages/header.php");
             include("pages/menu.php");
             include("pages/main.php");
