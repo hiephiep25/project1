@@ -1,7 +1,5 @@
 Web bán giày 
 - Công nghệ sử dụng: PHP, Mysqli
-- Yêu cầu: Xampp, IDE lập trình
-
 - Mô tả đề tài: 
   Xây dựng website bán hàng với các chức năng của khách hàng và quản lí
   + Khách hàng: Xem sản phẩm, tìm kiếm sản phẩm, đặt hàng, đăng nhập, đăng kí, đăng xuất
